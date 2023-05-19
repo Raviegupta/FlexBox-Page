@@ -51,27 +51,31 @@ ul li{
 
 .content{
     /* border: 1px solid black; */
-    width: 50%;
+    /* width: 50%; */
     height: auto;
     overflow: hidden;
-    padding: 10px;
+    padding: 20px;
 }
 
 #para{
-    margin-left: 90px;
+    margin-left: 80px;
     text-align: justify;
     color: #444;
+    width: 60%;
 }
 
 p{
     font-size: 1.1rem;
     margin-bottom: 10px;
 }
+
 #tel{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-right: 90px;  
+    margin-right: 80px; 
+    padding: 20px; 
+    width: 30%;
 }
 
 #main_heading{
@@ -121,3 +125,38 @@ footer{
     display: flex;
     gap: 15px;
 }
+
+
+/* responsive web design */
+@media screen and (max-width: 1300px) {
+    #main1 {
+        display: flex;
+        flex-direction: column;
+    }
+    #para {
+        width: auto;
+        margin: 50px;
+    }
+    #tel {
+        width: 70%;
+        margin: auto;
+
+    }
+    #tel img {
+        width: fit-content;
+        height: 250px;
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+    #tel img {
+        width: fit-content;
+        height: 200px;
+    }
+  }
+  @media screen and (max-width: 650px) {
+    #tel img {
+        width: fit-content;
+        height: 150px;
+    }
+  }
