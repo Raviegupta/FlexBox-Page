@@ -1,4 +1,3 @@
-
 *{
     margin: 0px;
     padding: 0px;
@@ -14,7 +13,7 @@ header{
 }
 
 #flexbox{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-left: 80px;
     font-size: 25px;
     font-weight: bold;
@@ -30,7 +29,7 @@ header{
     font-size: larger;
     font-weight: bold;
     width: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin-right: 80px;
     gap: 20px;
 }
@@ -47,59 +46,78 @@ ul li{
     justify-content: space-evenly;
     background-color: lightgray;
     padding: 40px;
+    /* border: 1px solid black; */
 }
 
 .content{
-    border: 0px solid black;
-    width: 450px;
-    height: 450px;
-
+    /* border: 1px solid black; */
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+    padding: 10px;
 }
+
 #para{
-    margin-left: 130px;
+    margin-left: 90px;
     text-align: justify;
+    color: #444;
 }
 
 p{
-    font-size: 17px;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
 }
 #tel{
     display: flex;
-    /* flex-direction: column; */
+    justify-content: space-around;
     align-items: center;
-    margin-right: 130px;  
+    margin-right: 90px;  
 }
 
 #main_heading{
     margin-bottom: 10px;
 }
 
+
+/* css of main content 2 */
 #main2{
-    margin: 30px;
+    margin: 30px 130px;
     text-align: center;
+    /* border: 1px solid black; */
+    padding: 10px;
 } 
 
 #gallery{
     font-weight: bolder;
     font-size: 40px;
 }
+
+#images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 .img{
     height: 200px;
     width: 300px;
-    padding: 10px;
+    margin: 20px;
 }
 
+/* css of footer section */
 footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: lightgray;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding: 5px 30px;
 }
 #aircampus{
-    padding-left: 30px;
     font-size: 17px;
 }
 #ul2{
     display: flex;
-
+    gap: 15px;
 }
